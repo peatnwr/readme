@@ -1,0 +1,129 @@
+/*
+======================
+Admin
+======================
+*/
+
+:root {
+    --primaryColor: #f1f1f1;
+    --black: #222;
+    --black2: #555;
+    --black3: #252525;
+    --black4: #000;
+    --black5: #212529;
+    --orange: #eb0028;
+    --white: #fff;
+    --grey: #959595;
+    --grey2: #666;
+    --grey3: #ccc;
+    --secondaryColor: #2b1f4d;
+    --yellow: #ffc400;
+    --green: #59b210;
+    --blue: rgb(56, 10, 223);
+    --banner: #fcedee;
+    --pastel: #ff968a;
+    --lightblue: rgb(49, 131, 255);
+}
+
+body,
+input {
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: "Archivo", sans-serif;
+    color: var(--black);
+}
+
+form {
+   width: 40%;
+   font-size: 18px;
+}
+
+input {
+    width: 100%;
+    height: 1.5em;
+    outline: none;
+}
+
+input[type = 'radio'] {
+    width: fit-content;
+}
+
+table {
+    text-align: center;
+}
+
+thead {
+    color: var(--black5);
+    background-color: var(--pastel);
+}
+
+th {
+    padding: 1em 2em;
+}
+
+.th-product-admin th:nth-child(1) {
+    border-top-left-radius: 10px;
+}
+
+.th-product-admin th:nth-child(10) {
+    border-top-right-radius: 10px;
+}
+
+.th-user-admin th:nth-child(1) {
+    border-top-left-radius: 10px;
+}
+
+.th-user-admin th:nth-child(11) {
+    border-top-right-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.main-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.bookCategory {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cancle {
+    background-color: transparent;
+    border: 1px solid #eb0028;
+    margin-right: 20px;
+}
+
+.ok {
+    background-color: transparent;
+    border: 1px solid #59b210;
+}
+
+.b_c_o {
+    text-align: center;
+}
+
+.image-receipt {
+    position: absolute;
+    right: 10em;
+    transition: all 0.5s ease;
+} 
+
+.image-receipt:active {
+    transform: scale(4.5);
+    box-shadow: 4px 4px 5px #ff968a;
+    margin-right: 15em;
+}
+
+#wwww {
+    display: grid;
+    grid: auto / 0.3fr 0.3fr 0.3fr;
+    grid-gap: 2em;
+}
+

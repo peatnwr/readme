@@ -1,0 +1,193 @@
+:root {
+    --primaryColor: #f1f1f1;
+    --black: #222;
+    --black2: #555;
+    --black3: #252525;
+    --black4: #000;
+    --black5: #212529;
+    --orange: #eb0028;
+    --white: #fff;
+    --grey: #959595;
+    --grey2: #666;
+    --grey3: #ccc;
+    --secondaryColor: #2b1f4d;
+    --yellow: #ffcc00;
+    --green: #59b210;
+    --blue: rgb(56, 10, 223);
+    --banner: #fcedee;
+    --pastel: #ff968a;
+}
+
+.top-nav {
+    position: fixed;
+    width: 100%;
+    font-family: 'Kanit', sans-serif;
+    background-color: var(--white);
+    float: left;
+    color: var(--black4);
+    margin-bottom: 2%;
+    z-index: 9999;
+}
+
+.top-nav ul {
+    margin-left: 0%;
+    /* margin-top: 10px; */
+    text-align: center;
+}
+
+.nav-logo {
+    height: 160%;
+}
+
+.menu {
+    background-color: #faf9f2;
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+.top-nav li {
+    list-style-type: none;
+    font-family: 'Kanit', sans-serif;
+    padding: 0 20px;
+    margin-top: 0;
+    display: inline;
+}
+
+.top-nav li:hover {
+    background-color: blanchedalmond;
+}
+
+.top-nav li:active {
+    background-color: blanchedalmond;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: var(--black4);
+}
+
+.top-nav button,
+.top-nav input {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.8rem;
+    padding: 5px 23px;
+    border-radius: 5px;
+    border: 1px solid var(--grey);
+    background-color: var(--white);
+}
+
+.top-nav .top-logo {
+    position: relative;
+    overflow: hidden;
+    background-color: var(--banner);
+    padding: 1.5% 20px;
+    margin-bottom: 0;
+}
+
+.top-nav .button-right {
+    float: right;
+}
+
+.top-nav #logo-centered {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top-nav-admin {
+    position: fixed;
+    width: 100%;
+    font-family: 'Kanit', sans-serif;
+    background-color: var(--white);
+    float: left;
+    color: var(--black4);
+    margin-bottom: 2%;
+    z-index: 9999;
+}
+
+.top-nav-admin ul {
+    margin-left: 0%;
+    /* margin-top: 10px; */
+    text-align: center;
+}
+
+.top-nav-admin li {
+    list-style-type: none;
+    font-family: 'Kanit', sans-serif;
+    padding: 0 20px;
+    margin-top: 0;
+    display: inline;
+}
+
+.top-nav-admin li:hover {
+    background-color: blanchedalmond;
+}
+
+.top-nav li:active {
+    background-color: blanchedalmond;
+}
+
+.top-nav-admin a {
+    text-decoration: none;
+    color: var(--black4);
+}
+
+.top-nav-admin button,
+.top-nav-admin input {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.8rem;
+    padding: 5px 23px;
+    border-radius: 5px;
+    border: 1px solid var(--grey);
+    background-color: var(--white);
+}
+
+.top-nav-admin .top-logo {
+    position: relative;
+    overflow: hidden;
+    background-color: var(--banner);
+    padding: 1.5% 20px;
+    margin-bottom: 0;
+}
+
+.top-nav-admin .button-right {
+    float: right;
+}
+
+.top-nav-admin #logo-centered {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cart-btn {
+    position: relative;
+}
+
+.notification-cart {
+    background-color: var(--orange);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    font-size: 19px;
+    color: white;
+}
+
+.notification-list {
+    background-color: var(--orange);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    font-size: 19px;
+    color: white;
+}

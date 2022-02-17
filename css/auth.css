@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.icon-img {
+    position: fixed;
+    left: 17%;
+    top: 15% !important;
+}
+
+.box {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    background: #fcebeb;
+}
+
+.form-box {
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 5% 4% 5% auto !important;
+    margin-right: 4%;
+    background: #fdd0d1;
+    border-radius: 30px;
+}
+
+.inner-form-box {
+    width: 380px;
+    height: 400px;
+    top: 70px;
+    position: relative;
+    background: white;
+    border-radius: 30px;
+    margin-top: 30px;
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+.btn {
+    position: absolute;
+    margin: 20px 4%;
+}
+
+.toggle-btn {
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: #d37374;
+    font-size: 25px;
+    margin: auto 10px;
+    padding: 8px;
+    outline: none;
+}
+
+.inner-form-box input {
+    background: #f5eaea;
+    border-style: none;
+    font-size: 16px;
+    padding: 10px;
+    width: 300px;
+    height: 25px;
+    margin: 6px 0px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.inner-form-box select {
+    background: #f5eaea;
+    border-style: none;
+    font-size: 16px;
+    padding: 10px;
+    width: 320px;
+    height: 45px;
+    margin: 6px 0px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.inner-form-box button {
+    background: #f5eaea;
+    border-style: none;
+    font-size: 16px;
+    padding: 10px;
+    width: 300px;
+    height: 25px;
+    margin: 6px 0px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.inner-form-box .submit {
+    color: #d37374;
+    background: #fdd0d1;
+    width: 320px;
+    height: 45px;
+}
+
+.inner-form-box .text {
+    margin: 15px 65px;
+    color: rgba(128, 128, 128, 0.726);
+}
+
+#signIn {
+    left: 30px;
+    position: absolute;
+}
+
+#signUp {
+    left: 500px;
+    position: absolute;
+}
+
+.line {
+    background: #d37374;
+    width: 80px;
+    height: 8px;
+    border-radius: 100px;
+    z-index: 1000;
+    position: absolute;
+    left: 20px;
+}
+
+#btnsignIn {
+    font-weight: bold;
+}
+
+.des_input {
+    color: rgb(128, 128, 128);
+}
+
+.transition {
+    transition: 0.5s;
+}
+
+.radio-btn {
+    margin: 0 !important;
+    width: 15px !important;
+}
+
+#signUp2 {
+    left: 500px;
+    position: absolute;
+}
+
+#signUp3 {
+    left: 900px;
+    position: absolute;
+}
+
+.inner-form-box .nextbtn {
+    color: #d37374;
+    background: #fdd0d1;
+    width: 160px;
+    height: 45px;
+    left: 160px;
+    position: absolute;
+}
+
+.inner-form-box .backbtn {
+    color: #d37374;
+    background: #fdd0d1;
+    width: 150px;
+    height: 45px;
+    position: absolute;
+}
+
+#signUp input[type="button"]:disabled {
+    color: white;
+    background: lightgray;
+    width: 150px;
+    height: 45px;
+    position: absolute;
+    outline: none;
+}
